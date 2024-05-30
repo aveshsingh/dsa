@@ -73,7 +73,7 @@ public class PrintKLevelFarBinaryTree {
 
     public static void main(String[] args) {
 //        Integer[] arr = {50, 25, 12, null, null, 37, 30, null, null, null, 75, 62, null, 70, null, null, 87, null, null};
-        Integer[] arr = {3,5,1,6,2,0,8,null,null,7,4,3};
+        Integer[] arr = {3,5,1,6,2,0,8,null,null,7,4};
         Stack<Pair> stack = new Stack<>();
         Node root = new Node(arr[0], null, null);
         stack.push(new Pair(root, 1));
